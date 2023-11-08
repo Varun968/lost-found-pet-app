@@ -1,0 +1,46 @@
+/* src/components/PetForm.css */
+
+/* Style the container that holds the pet form */
+.PetForm {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Style the header */
+  .PetForm h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style the form elements */
+  .PetForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PetForm input {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .PetForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .PetForm button:hover {
+    background-color: #0056b3;
+  }
+  

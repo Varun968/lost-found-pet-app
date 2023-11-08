@@ -1,0 +1,37 @@
+/* src/components/Pets.css */
+
+/* Style the container that holds the list of pets */
+.Pets {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Style the header */
+  .Pets h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style the list of pets */
+  .Pets ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Pets li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Pets li:hover {
+    background-color: #f0f0f0;
+  }
+  
